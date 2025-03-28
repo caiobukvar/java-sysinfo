@@ -5,7 +5,7 @@ import javax.swing.*;
 public class SystemInfoApp extends JFrame {
 
     public SystemInfoApp() {
-        setTitle("SYSINFO - By Caio Bukvar");
+        setTitle("SYSINFO");
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -16,6 +16,7 @@ public class SystemInfoApp extends JFrame {
         tabbedPane.addTab("RAM", new RAMPanel());
         tabbedPane.addTab("Network", new NetworkPanel());
         tabbedPane.addTab("OS", new OSPanel());
+        tabbedPane.addTab("Information", new InfoPanel());
 
         add(tabbedPane);
     }

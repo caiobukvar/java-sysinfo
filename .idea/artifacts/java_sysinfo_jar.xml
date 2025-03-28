@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="java-sysinfo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_sysinfo_jar</output-path>
+    <root id="archive" name="java-sysinfo.jar">
+      <element id="module-output" name="java-sysinfo" />
+    </root>
+  </artifact>
+</component>

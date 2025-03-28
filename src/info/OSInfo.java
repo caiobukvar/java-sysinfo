@@ -33,7 +33,7 @@ public class OSInfo {
     }
 
     public static String getOSDetails() {
-        return "Operating System: " + System.getProperty("os.name") +
+        return "\nOperating System: " + System.getProperty("os.name") +
                 "\nOS Version: " + System.getProperty("os.version") +
                 "\nArchitecture: " + System.getProperty("os.arch") +
                 "\nUser Language: " + System.getProperty("user.language") +
